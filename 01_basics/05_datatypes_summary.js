@@ -40,3 +40,30 @@ const myFunction = function(){
 }
 
 console.log(typeof score);
+
+
+/* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+
+// stacks (Primitive) , Heap(Non Primitive)
+
+let sample = "hello";
+
+let simple = sample;
+simple = "world"
+console.log(simple);
+console.log(sample);
+
+let userOne = {
+    email : "user@gmail.com",
+    upi : "user@ybl",
+}
+// console.log(userOne);
+
+let userTwo = userOne;
+
+userTwo.email = "sample@gmail.com";
+console.log(userTwo);
+console.log(userOne);
+
+
+
